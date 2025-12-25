@@ -1,0 +1,56 @@
+------------- NVBit (NVidia Binary Instrumentation Tool v1.5.5) Loaded --------------
+NVBit core environment variables (mostly for nvbit-devs):
+            NVDISASM = nvdisasm - override default nvdisasm found in PATH
+            NOBANNER = 0 - if set, does not print this banner
+---------------------------------------------------------------------------------
+         INSTR_BEGIN = 0 - Beginning of the instruction interval where to apply instrumentation
+           INSTR_END = 4294967295 - End of the instruction interval where to apply instrumentation
+        TOOL_VERBOSE = 0 - Enable verbosity inside the tool
+----------------------------------------------------------------------------------------------------
+byte : 32768
+CTX 0x0000561b7f632ec0 - API Name 386
+CTX 0x0000561b7f632ec0 - API Name 304
+CTX 0x0000561b7f632ec0 - API Name 304
+CTX 0x0000561b7f632ec0 - API Name 16
+CTX 0x0000561b7f632ec0 - API Name 16
+CTX 0x0000561b7f632ec0 - API Name 23
+CTX 0x0000561b7f632ec0 - API Name 23
+No CUDA error.
+No CUDA error.
+CTX 0x0000561b7f632ec0 - API Name 243
+No CUDA error.
+No CUDA error.
+CTX 0x0000561b7f632ec0 - API Name 243
+No CUDA error.
+No CUDA error.
+CTX 0x0000561b7f632ec0 - API Name 243
+CTX 0x0000561b7f632ec0 - API Name 277
+CTX 0x0000561b7f632ec0 - API Name 277
+CTX 0x0000561b7f632ec0 - API Name 277
+CTX 0x0000561b7f632ec0 - API Name 277
+CTX 0x0000561b7f632ec0 - API Name 277
+CTX 0x0000561b7f632ec0 - API Name 277
+CTX 0x0000561b7f632ec0 - API Name 307
+No CUDA error.
+MEMTRACE: CTX 0x0000561b7f632ec0 - LAUNCH - Kernel pc 0x00007f7e26fa0f00 - Kernel name vecAdd(float*, float*, float*, int) - grid launch id 1 - grid size 8,1,1 - block size 1024,1,1 - nregs 12 - shmem 0 - cuda stream id 0
+alloc address : 140179363856384, size : 32768
+alloc address : 140179363889152, size : 32768
+alloc address : 140179363921920, size : 32768
+CTX 0x0000561b7f632ec0 - API Name 307
+No CUDA error.
+CTX 0x0000561b7f632ec0 - API Name 278
+CTX 0x0000561b7f632ec0 - API Name 278
+Final sum = 24576; sum/n = 3 (should be ~1)
+No CUDA error.
+CTX 0x0000561b7f632ec0 - API Name 245
+No CUDA error.
+No CUDA error.
+CTX 0x0000561b7f632ec0 - API Name 245
+No CUDA error.
+No CUDA error.
+CTX 0x0000561b7f632ec0 - API Name 245
+No CUDA error.
+No CUDA error.
+free address : 140179363856384
+free address : 140179363889152
+free address : 140179363921920
